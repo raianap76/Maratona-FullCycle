@@ -1,10 +1,10 @@
 # Desafios da [Maratona Full Cycle 3.0](http://maratona.fullcycle.com.br/) :rocket:
 
-## [Hello World Go](https://github.com)
+## [Hello World Go](https://github.com/raianap76/Maratona-FullCycle3.0/tree/master/desafio01)
 
 - Projeto que usa a linguagem Go para mostrar o famoso Hello World usando container docker.
 
-## [Hello World Go + Buffalo](https://github.com)
+## [Hello World Go + Buffalo](https://github.com/raianap76/Maratona-FullCycle3.0/tree/master/desafio02)
 
 - Projeto que cria uma Web Api para retornar o famoso Hello World usando container docker.
 
