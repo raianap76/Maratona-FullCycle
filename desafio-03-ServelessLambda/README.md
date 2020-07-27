@@ -1,12 +1,23 @@
-# DESAFIO 03 - Endpoint serverless que realiza uma operação de soma
+## Hello World Go
 
-Neste desafio foi proposto criar um endpoint no formato: /soma?={numero}&b={numero}.
+- Imprimir Hello World uando a linguagem go juntamente com o docker.
 
-Quando alguém acessasr atraveś do método get um json deve ser retornado no formato:
-{ "resultado": valor }
+### Tecnologias usadas
 
-Neste desafio o desenvolvedor poderia escolher entre javascript, golang ou python e hospedar no cloud provider que quisesse.
+### Como executar
 
-No meu caso escolhi javascript e hospedei na IBM Cloud.
+### Usando docker
 
-<a href="https://id5x9qh4u7.execute-api.us-east-1.amazonaws.com/dev/soma?a=8&b=18">Link</a>
+##### Executar imagem docker
+
+    $ docker run raianabrito/desafio2-maratorna-api
+
+##### Ou criar sua própria imagem
+
+Na pasta do [Dockerfile] execute o comando
+
+\$ docker build -t <nome_imagem> .
+
+Então execute
+
+    $ docker run <nome_imagem>
