@@ -14,6 +14,10 @@ Para realizar o desafio, fique na liberdade para escolher entre as linguagens: j
 
 Não se esqueça que também temos um canal na comunidade criada no Discord para debater exatamente esse desafio.
 
+## Link do endpoint
+
+* https://id5x9qh4u7.execute-api.us-east-1.amazonaws.com/dev/soma?a=8&b=18
+
 ## Minhas referências
 
 * https://www.serverless.com/framework/docs/getting-started/
