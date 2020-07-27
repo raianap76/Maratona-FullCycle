@@ -1,7 +1,23 @@
-# DESAFIO 01 - Hello Full Cycle utilizando Golang e Docker
+## Hello World Go
 
-O primeiro desafio dessa maratona consistia em criar um "Hello Full Cycle" utilizando a linguagem Golang.
-Basicamente quando o arquivo compilado for executado, deverá ser exibido: Hello Full Cycle.
-Se tudo estiver funcionando de forma adequada, gerar uma imagem docker que quando executada deva rodar o programa criado em Golang.
+- Imprimir Hello World uando a linguagem go juntamente com o docker.
 
-Docker Image: <a href="https://hub.docker.com/r/lyancampos/maratona_fullcycle_desafio02" target="blank">https://hub.docker.com/r/lyancampos/maratona_fullcycle_desafio01</a>
+### Tecnologias usadas
+
+### Como executar
+
+### Usando docker
+
+##### Executar imagem docker
+
+    $ docker run raianabrito/esquenta-maratona-go
+
+##### Ou criar sua própria imagem
+
+Na pasta do [Dockerfile] execute o comando
+
+\$ docker build -t <nome_imagem> .
+
+Então execute
+
+    $ docker run <nome_imagem>
