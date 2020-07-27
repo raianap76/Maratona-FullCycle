@@ -1,41 +1,23 @@
-# Hello Full Cycle utilizando Golang e Docker
+## Hello World Go
 
-## Informações do desafio
+- Imprimir Hello World uando a linguagem go juntamente com o docker.
 
-Esse desafio vai te introduzir ao mundo serverless!
+### Tecnologias usadas
 
-E por conta disso você terá que gerar um endpoint no seguinte formato: /soma?a={numero}&b={numero}.
+### Como executar
 
-Quando alguém acessar através do método get um json deve ser retornado no formato:
+### Usando docker
 
-`{"resultado":valor}`
+##### Executar imagem docker
 
-Para realizar o desafio, fique na liberdade para escolher entre as linguagens: javascript, golang ou python. Também utilize o framework Serverless para realizar essa tarefa e utilize o cloud provider que achar mais conveniente.
+    $ docker run raianabrito/desafio2-maratorna-api
 
-Não se esqueça que também temos um canal na comunidade criada no Discord para debater exatamente esse desafio.
+##### Ou criar sua própria imagem
 
-## Minhas referências
+Na pasta do [Dockerfile] execute o comando
 
-* https://www.serverless.com/framework/docs/getting-started/
-* https://www.serverless.com/examples/openwhisk-node-simple/
-* https://github.com/serverless/examples/blob/master/openwhisk-node-simple/hello_world.js
-* https://www.serverless.com/framework/docs/providers/openwhisk/cli-reference/invoke/
-* https://www.serverless.com/framework/docs/providers/openwhisk/guide/credentials/
+\$ docker build -t <nome_imagem> .
 
-## Executando
+Então execute
 
-### Autenticar na IBM Cloud
-
-```bash
-docker-compose run serveless ibmcloud login
-docker-compose run serveless ibmcloud api
-docker-compose run serveless ibmcloud wsk property get --auth
-```
-
-### Acessando funcion localmente
-
-```bash
-docker-compose run serveless sls invoke local -f soma --data '{"a": 1, "b": 2 }'
-```
-### Link do endpoint
-* https://id5x9qh4u7.execute-api.us-east-1.amazonaws.com/dev/soma?a=8&b=18
+    $ docker run <nome_imagem>
