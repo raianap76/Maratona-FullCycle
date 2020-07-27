@@ -10,7 +10,7 @@
 
 ##### Executar imagem docker
 
-    $ docker run raianabrito/desafio2-maratorna-api
+    $ docker run raianabrito/esquenta-maratona-go
 
 ##### Ou criar sua própria imagem
 
