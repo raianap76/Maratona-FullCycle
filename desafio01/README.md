@@ -16,11 +16,6 @@ Não se esqueça que também temos um canal na comunidade criada no Discord para
 
 ## Minhas referências
 
-* https://www.serverless.com/framework/docs/getting-started/
-* https://www.serverless.com/examples/openwhisk-node-simple/
-* https://github.com/serverless/examples/blob/master/openwhisk-node-simple/hello_world.js
-* https://www.serverless.com/framework/docs/providers/openwhisk/cli-reference/invoke/
-* https://www.serverless.com/framework/docs/providers/openwhisk/guide/credentials/
 
 ## Executando
 
